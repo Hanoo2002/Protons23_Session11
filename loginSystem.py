@@ -24,7 +24,3 @@ def register():
     secret = input("Now enter your secrete phrase for safekeeping: ")
     database[username] = {"password": new_password, "secret": secret}
     return 1
-            print("Thank You")
-            break
-        case _:
-            print("error: invalid input")
